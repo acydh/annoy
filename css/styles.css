@@ -12,4 +12,35 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+.annoying-button {
+  border-radius: 5%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  display: table;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.annoying-button h3 {
+  text-transform: uppercase;
+  display: inline;
+  line-height: 0;
+}
+
+@keyframes buttonVanish {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(300px);
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
