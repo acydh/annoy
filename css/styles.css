@@ -1,0 +1,15 @@
+.logo-div {
+  border: 1px solid black;
+  width: 6.25rem;
+}
+.logo-div h1 {
+  font-size: 2.5rem;
+  line-height: 0;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
