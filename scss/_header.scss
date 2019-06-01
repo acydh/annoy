@@ -1,12 +1,30 @@
+header {
+  margin: 10px;
+}
+
 .logo-div {
   border: 1px solid black;
   width: 6.25rem;
   h1 {
     font-size: 2.5rem;
     line-height: 0;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
   }
 }
 .subtitle {
   font-size: 1.2rem;
   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
