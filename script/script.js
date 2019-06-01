@@ -33,3 +33,9 @@ function vanish(){
   annoyingButton.style.animationDuration = "1s";
   setTimeout(function(){annoyingButton.style.display = "none";}, 900);
 }
+
+function setAnnoyingCursor() {
+  document.documentElement.style.cursor = "wait";
+}
+
+setAnnoyingCursor();
